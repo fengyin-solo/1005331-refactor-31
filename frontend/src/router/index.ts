@@ -15,6 +15,7 @@ const Diary = () => import('@/views/diary/index.vue')
 const Labor = () => import('@/views/labor/index.vue')
 const Tool = () => import('@/views/tool/index.vue')
 const Safety = () => import('@/views/safety/index.vue')
+const HazardReport = () => import('@/views/hazard-report/index.vue')
 const Packing = () => import('@/views/packing/index.vue')
 const Conserve = () => import('@/views/conserve/index.vue')
 const Briefing = () => import('@/views/briefing/index.vue')
@@ -38,6 +39,7 @@ const router = createRouter({
     { path: '/labor', name: 'labor', component: Labor },
     { path: '/tool', name: 'tool', component: Tool },
     { path: '/safety', name: 'safety', component: Safety },
+    { path: '/hazard-report', name: 'hazard-report', component: HazardReport },
     { path: '/packing', name: 'packing', component: Packing },
     { path: '/conserve', name: 'conserve', component: Conserve },
     { path: '/briefing', name: 'briefing', component: Briefing },
